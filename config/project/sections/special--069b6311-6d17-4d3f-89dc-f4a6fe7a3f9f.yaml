@@ -1,0 +1,18 @@
+enableVersioning: false
+handle: special
+name: Spezial
+previewTargets:
+  -
+    label: 'Primary entry page'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  9238c89c-b1ce-4b99-ae2a-359e5535abf0:
+    enabledByDefault: true
+    hasUrls: true
+    template: special/_entry
+    uriFormat: 'special/{slug}'
+structure:
+  maxLevels: 1
+  uid: 502cd7f4-925e-4b05-9829-0f83cb882bb8
+type: structure

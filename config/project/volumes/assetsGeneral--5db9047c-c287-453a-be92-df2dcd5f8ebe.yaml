@@ -1,0 +1,8 @@
+handle: assetsGeneral
+hasUrls: true
+name: 'Sonstige Uploads'
+settings:
+  path: assets/general
+sortOrder: 2
+type: craft\volumes\Local
+url: assets/general

@@ -1,0 +1,44 @@
+dateModified: 1612792411
+email:
+  fromEmail: josef.renner@gmail.com
+  fromName: 'Francoise Nussbaumer'
+  transportType: craft\mail\transportadapters\Sendmail
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
+plugins:
+  craftql:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.1.0
+    settings:
+      allowedHeaders:
+        - 'Authorization, Content-Type'
+      graphiqlFetchUrl: null
+      maxQueryComplexity: false
+      maxQueryDepth: false
+      throwSchemaBuildErrors: false
+      uri: api
+      verbs:
+        - POST
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'Françoise Nussbaumer'
+  schemaVersion: 3.6.1
+  timeZone: Europe/Zurich
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

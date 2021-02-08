@@ -1,0 +1,20 @@
+contentColumnType: text
+fieldGroup: 54c01ac0-1683-46c4-b4f4-b5eb6c5a82d3
+handle: details
+instructions: ''
+name: 'Detaillierte Kursinformationen'
+searchable: true
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  cleanupHtml: true
+  columnType: text
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: Simple.json
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

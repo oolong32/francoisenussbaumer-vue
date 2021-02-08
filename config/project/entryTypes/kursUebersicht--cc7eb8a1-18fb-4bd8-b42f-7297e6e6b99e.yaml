@@ -1,0 +1,7 @@
+handle: kursUebersicht
+hasTitleField: false
+name: 'Workshops Übersicht'
+section: 65c4d9a2-3073-47e6-bed3-b74dda23906e
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleLabel: null

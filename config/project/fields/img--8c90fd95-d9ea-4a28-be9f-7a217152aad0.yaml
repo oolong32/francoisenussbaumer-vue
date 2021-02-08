@@ -1,0 +1,25 @@
+contentColumnType: string
+fieldGroup: 54c01ac0-1683-46c4-b4f4-b5eb6c5a82d3
+handle: img
+instructions: ''
+name: Bild
+searchable: false
+settings:
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:8f51ca4a-95b9-472a-9dcc-900adacab5e4'
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  restrictFiles: '1'
+  selectionLabel: 'Bild auswählen'
+  singleUploadLocationSource: 'volume:5db9047c-c287-453a-be92-df2dcd5f8ebe'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: '1'
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

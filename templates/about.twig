@@ -1,0 +1,23 @@
+{# About Template #}
+{% extends '_layout' %}
+
+{% block content %}
+  {% set entry = craft.entries().section('about').one() %}
+  <main id="about">
+
+    <section id="content">
+
+      {% set img = entry.img.one() %}
+      {% if img|length %}
+      <img src="{{ img.getUrl() }}" alt="{{ currentSite.name  }}, {{ entry.title }}">
+      {% endif %}
+
+      {{ entry.text }}
+
+    </section>
+
+  </main>
+
+{% include 'includes/footer' %}
+
+{% endblock %}

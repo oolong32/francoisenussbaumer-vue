@@ -1,0 +1,7 @@
+handle: bilder
+hasTitleField: false
+name: Bilder
+section: 01285a36-ebfb-4d29-8942-2387adddfed0
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleLabel: null

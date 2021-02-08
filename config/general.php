@@ -25,7 +25,15 @@ return [
 
         // Whether to save the project config out to config/project.yaml
         // (see https://docs.craftcms.com/v3/project-config.html)
-        'useProjectConfigFile' => false,
+        'useProjectConfigFile' => true,
+
+        // no umlauts in slugs
+        'limitAutoSlugsToAscii' => true,
+        //
+        // Custom Aliases
+        'aliases' => [
+          '@assetBasePath' => 'http://francoisenussbaumer.test/assets/'
+        ],
     ],
 
     // Dev environment settings
@@ -37,12 +45,15 @@ return [
     // Staging environment settings
     'staging' => [
         // Set this to `false` to prevent administrative changes from being made on staging
-        'allowAdminChanges' => true,
+        'allowAdminChanges' => false,
     ],
 
     // Production environment settings
     'production' => [
         // Set this to `false` to prevent administrative changes from being made on production
-        'allowAdminChanges' => true,
+        'allowAdminChanges' => false,
+        'aliases' => [
+          '@assetBasePath' => 'https://francoisenussbaumer.ch/assets/'
+        ],
     ],
 ];

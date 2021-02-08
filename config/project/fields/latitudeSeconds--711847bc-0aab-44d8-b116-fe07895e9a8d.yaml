@@ -1,0 +1,17 @@
+contentColumnType: 'decimal(3,1)'
+fieldGroup: 5d585f0d-ff1d-4d1b-af7b-b40a6580d5e2
+handle: latitudeSeconds
+instructions: ''
+name: 'Geografische Breite, Sekunden'
+searchable: false
+settings:
+  decimals: '1'
+  defaultValue: '31.8'
+  max: '59'
+  min: '0'
+  prefix: ''
+  size: null
+  suffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

@@ -1,0 +1,27 @@
+fieldLayouts:
+  1976b51c-d0b6-472d-80f6-df2fb629c4e1:
+    tabs:
+      -
+        fields:
+          80c4306a-f57c-495b-98c3-e2ab7127bd72:
+            required: true
+            sortOrder: 2
+          93d77b82-364b-4456-a180-807095386528:
+            required: true
+            sortOrder: 1
+          a7bf9193-2b3c-4e43-ae7e-c2164bacfb54:
+            required: true
+            sortOrder: 4
+          bd929699-0b35-4bf7-8150-baada3cc384e:
+            required: true
+            sortOrder: 3
+        name: Inhalt
+        sortOrder: 1
+handle: paintings
+hasUrls: true
+name: 'Gemalte Bilder'
+settings:
+  path: assets/paintings
+sortOrder: 1
+type: craft\volumes\Local
+url: assets/paintings

@@ -1,0 +1,25 @@
+fieldLayouts:
+  cebe8a17-697a-4167-ad3a-981e363a713d:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Titel
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 1bb57016-86ba-45a2-b22f-4d5c08156cbd
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 41926178-25cf-4a46-bb32-d2273b10d768
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: 'Tab 1'
+        sortOrder: 1
+handle: special
+hasTitleField: true
+name: Spezial
+section: 069b6311-6d17-4d3f-89dc-f4a6fe7a3f9f
+sortOrder: 1
+titleFormat: ''

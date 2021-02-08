@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: 54c01ac0-1683-46c4-b4f4-b5eb6c5a82d3
+handle: date
+instructions: 'Termin oder Zeitspanne'
+name: Kursdaten
+searchable: false
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

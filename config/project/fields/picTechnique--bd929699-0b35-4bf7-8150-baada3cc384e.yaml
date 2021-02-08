@@ -1,0 +1,16 @@
+contentColumnType: text
+fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62
+handle: picTechnique
+instructions: ''
+name: Maltechnik
+searchable: true
+settings:
+  charLimit: ''
+  code: ''
+  columnType: text
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'Öl auf Leinwand'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

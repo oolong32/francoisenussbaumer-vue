@@ -1,0 +1,18 @@
+enableVersioning: true
+handle: workshops
+name: Workshops
+previewTargets:
+  -
+    label: 'Primary entry page'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  9238c89c-b1ce-4b99-ae2a-359e5535abf0:
+    enabledByDefault: true
+    hasUrls: true
+    template: workshops/entry
+    uriFormat: 'workshops/{slug}'
+structure:
+  maxLevels: 1
+  uid: 1d4d8455-8af4-49d5-b110-d173dbb0c99e
+type: structure

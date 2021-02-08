@@ -1,0 +1,10 @@
+handle: sujets
+name: Sujets
+siteSettings:
+  9238c89c-b1ce-4b99-ae2a-359e5535abf0:
+    hasUrls: true
+    template: ''
+    uriFormat: 'sujets/{slug}'
+structure:
+  maxLevels: 1
+  uid: ba5d321a-3b6a-494b-8660-881e0f290d61

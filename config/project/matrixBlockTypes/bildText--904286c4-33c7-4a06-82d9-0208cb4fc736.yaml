@@ -1,0 +1,62 @@
+field: 41926178-25cf-4a46-bb32-d2273b10d768
+fieldLayouts:
+  1a1b90a7-00c1-4201-8812-f610bf4642d4:
+    tabs:
+      -
+        fields:
+          65c20188-b8f5-4251-91f2-74dfbc42177b:
+            required: false
+            sortOrder: 2
+          97e4b741-6654-4d45-86b1-c1c3f1384072:
+            required: false
+            sortOrder: 1
+        name: Content
+        sortOrder: 1
+fields:
+  65c20188-b8f5-4251-91f2-74dfbc42177b:
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: 'Kurzer Text: was ist auf dem Bild zu sehen?'
+    name: Legende
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  97e4b741-6654-4d45-86b1-c1c3f1384072:
+    contentColumnType: string
+    fieldGroup: null
+    handle: bild
+    instructions: ''
+    name: Bild
+    searchable: true
+    settings:
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:5db9047c-c287-453a-be92-df2dcd5f8ebe'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: ''
+      singleUploadLocationSource: 'volume:8f51ca4a-95b9-472a-9dcc-900adacab5e4'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:5db9047c-c287-453a-be92-df2dcd5f8ebe'
+      targetSiteId: null
+      useSingleFolder: ''
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: bildText
+name: 'Bild & Text'
+sortOrder: 1

@@ -1,0 +1,17 @@
+contentColumnType: integer(10)
+fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62
+handle: picHeight
+instructions: 'Höhe des Bildes in cm.'
+name: Bildhöhe
+searchable: true
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: '0'
+  prefix: ''
+  size: null
+  suffix: ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

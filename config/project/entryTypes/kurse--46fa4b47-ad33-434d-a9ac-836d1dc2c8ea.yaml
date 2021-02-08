@@ -1,0 +1,37 @@
+fieldLayouts:
+  426cfe90-08d4-4577-9168-a310141a9f25:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Titel
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 8c90fd95-d9ea-4a28-be9f-7a217152aad0
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: d4fae239-b0b1-4fb1-9a96-4b32d27d0852
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: c8285e7e-78e0-4530-adfd-07457969de90
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 971fbe47-344d-4853-8894-9db59b3a6e4f
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 177ded6e-9724-4df1-812e-97a9704cbe5a
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Common
+        sortOrder: 1
+handle: kurse
+hasTitleField: true
+name: Kurse
+section: 832a0bbc-60b4-4ff6-a32e-3108cefd2d9b
+sortOrder: 1
+titleFormat: ''

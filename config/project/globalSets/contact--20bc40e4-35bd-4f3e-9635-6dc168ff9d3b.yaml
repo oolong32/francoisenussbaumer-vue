@@ -1,0 +1,45 @@
+fieldLayouts:
+  e2a3a887-fdcc-4d14-a554-0dfa8a8caea5:
+    tabs:
+      -
+        fields:
+          2131dc45-e00f-40e6-9bcd-917e2ef45619:
+            required: false
+            sortOrder: 10
+          33ba1e0e-27ed-4e87-98c4-2fe265b28a98:
+            required: false
+            sortOrder: 1
+          3c2d97ae-931c-407a-b4e8-efc1a4c4733b:
+            required: false
+            sortOrder: 12
+          57548489-3db0-49da-a89a-f22e09f1c3d4:
+            required: false
+            sortOrder: 7
+          5db78920-204b-4fa7-bbf5-453b6e735514:
+            required: false
+            sortOrder: 11
+          6361c7f6-ac27-4b56-9a1e-40672a9fa45b:
+            required: false
+            sortOrder: 4
+          6e0573c5-df31-4f11-9766-0a6ee1f5923b:
+            required: false
+            sortOrder: 5
+          711847bc-0aab-44d8-b116-fe07895e9a8d:
+            required: false
+            sortOrder: 9
+          7a811d84-180f-4b1a-8325-5b2e6cde5c9f:
+            required: false
+            sortOrder: 2
+          8fa75db6-de94-4226-9489-18443cc4388a:
+            required: false
+            sortOrder: 8
+          b4597672-df7e-4d2d-bdff-b318c375df0d:
+            required: false
+            sortOrder: 3
+          c7472aa4-499a-4433-b5d0-df11258a256b:
+            required: false
+            sortOrder: 6
+        name: Kontakt
+        sortOrder: 1
+handle: contact
+name: Kontakt

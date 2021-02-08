@@ -1,30 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>{{ siteName }}</title>
+{% extends "_layout" %}
 
-  {{ craft.twigpack.includeCssModule("app.css", true) }}
-</head>
+{% block content %}
+  <main id="index">
+    <p v-if="auction_data && auction_data.status === 'Auktion beendet'">Auktion für dieses Bild beendet.</p>
+    <p v-else-if="auction_data">Momentaner Preis: CHF ${ auction_data.bids.length ? auction_data.article.base_price + 10 : auction_data.article.start_price }.—</p>
+    <p v-else>Daten werden aufbereitet …</p>
+    <div id="image-container">
+      <img
+        :src="auction_data ? auction_data.permalink : '{{ alias( '@assetBasePath' ) }}/_pic/test.svg'"
+        :alt="auction_data ? auction_data.article.title : 'Placeholder'"
+        >
+        <p v-if="auction_data && auction_data.article.active" id="auction-button" class="button">
+          <a href="https://auction.francoisenussbaumer.ch/">Bieten</a>
+        </p>
+    </div>
+    <p v-if="auction_data"><strong>${ auction_data.article.title }</strong><br>${ auction_data.article.description }.</p>
+  </main>
 
-<body>
-  <div id="app">
-    
-    {% set info = {
-      craftVersion: craft.app.getVersion(),
-      environment: getenv('ENVIRONMENT')
-    } %}
-    
-    <hello-world :info="{{ info|json_encode }}">
-      {{ getenv('DB_DSN') }}
-    </hello-world>
-  </div>
+  {% include 'includes/footer' %}
 
-  {{ craft.twigpack.includeSafariNomoduleFix() }}
-  {{ craft.twigpack.includeJsModule("app.js", true) }}
-  {{ craft.twigpack.includeJsModule("chunk-vendors.js", true) }}
+  {% include 'includes/vue-loader' %}
 
-</body>
-</html>
+  <script>
+    const url = "https://auction.francoisenussbaumer.ch/json";
+
+    var app = new Vue({
+      el: '#index',
+      delimiters: ['${', '}'],
+
+      data: {
+        auction_data: null
+      },
+
+      created: function () {
+        this.getAuctionData(); 
+      },
+
+      methods: {
+        getAuctionData: async function() { 
+          let response = await fetch(url);
+          this.auction_data = await response.json();
+          console.log(this.auction_data);
+        }
+      }
+    });
+</script>
+
+{% endblock %}

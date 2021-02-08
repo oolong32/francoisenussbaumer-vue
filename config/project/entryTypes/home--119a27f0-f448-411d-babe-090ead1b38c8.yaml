@@ -1,0 +1,7 @@
+handle: home
+hasTitleField: false
+name: Home
+section: f6225056-637f-4012-be73-84b958f8b27d
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleLabel: null

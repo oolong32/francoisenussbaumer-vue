@@ -1,0 +1,15 @@
+enableVersioning: true
+handle: workshopOverview
+name: 'Workshops Übersicht'
+previewTargets:
+  -
+    label: 'Primary entry page'
+    urlFormat: '{url}'
+propagationMethod: all
+siteSettings:
+  9238c89c-b1ce-4b99-ae2a-359e5535abf0:
+    enabledByDefault: true
+    hasUrls: true
+    template: workshops/index
+    uriFormat: /workshops
+type: single

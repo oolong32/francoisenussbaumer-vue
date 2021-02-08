@@ -1,0 +1,25 @@
+fieldLayouts:
+  236b1900-f709-4929-8af4-0dddcadff01e:
+    tabs:
+      -
+        elements:
+          -
+            instructions: null
+            label: Titel
+            type: craft\fieldlayoutelements\EntryTitleField
+          -
+            fieldUid: 8c90fd95-d9ea-4a28-be9f-7a217152aad0
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+          -
+            fieldUid: 1bb57016-86ba-45a2-b22f-4d5c08156cbd
+            required: false
+            type: craft\fieldlayoutelements\CustomField
+        name: Common
+        sortOrder: 1
+handle: about
+hasTitleField: true
+name: About
+section: 94547326-d8ab-40e4-b013-c4819826dcbb
+sortOrder: 1
+titleFormat: '{section.name|raw}'

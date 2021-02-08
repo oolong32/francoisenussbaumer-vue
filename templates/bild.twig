@@ -1,0 +1,53 @@
+{# Bild Template #}
+{% extends '_layout' %}
+
+
+{% block content %}
+  <main id="bild">
+
+    {% set painting = craft.assets().volume('paintings').id(assetId).one() %}
+    {% if painting|length %}
+      <figure>
+        <figcaption>{{ painting.title }}, {{ painting.picTechnique }}, {{ painting.picWidth }} × {{ painting.picHeight }} cm</figcaption>
+
+        <img src="/{{ painting.getUrl() }}" alt="{{ painting.title }}"> 
+      </figure>
+      <!--
+      {# Anzeige d. Kategorie unnötig, oder? #}
+      {% if painting.picType.all()|length %}
+        {% if painting.picType.all()|length == 1 %}
+          {% set picType = painting.picType.one() %}
+          <p>{{ picType.title }}</p> {# ein Link wär schön, what? #}
+        {% else %}
+          {% set picTypes = painting.picType.all() %}
+          <ul>
+          {% for picType in picTypes %}
+            <li>{{ picType.title }}</li> {# ein Link wär schön, what? #}
+          {% endfor %}
+          </ul>
+        {% endif %}
+      {% else %}
+        <p>Keine Kategorie für dieses Bild gewählt</p> {# Wording! #}
+      {% endif %}
+      -->
+
+      <p>
+
+        {% set parameter = 'Ich interessiere mich für Bild Nr. '
+          ~ painting.id
+          ~ ', «'
+          ~ painting.title
+          ~ '».' %}
+
+        <a href="mailto:mail@francoisenussbaumer.ch?subject={{ painting.title|url_encode }}&body={{ parameter|url_encode }}">Ich interessiere mich für dieses Bild</a>
+      </p>
+
+    {% else %}
+      <p>Ein Bild mit dieser Id wurde nicht gefunden.</p>
+    {% endif %}
+
+  </main>
+
+  {% include 'includes/footer' %}
+
+{% endblock %}
