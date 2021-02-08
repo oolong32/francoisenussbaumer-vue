@@ -25,3 +25,13 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+
+**/*.swp
+/web/assets/uploads
+/web/assets/fonts/
+/web/assets/general/
+/web/assets/js/
+/web/assets/paintings/
+/web/.well-known/
+/francoisenussbaumer_sketch/

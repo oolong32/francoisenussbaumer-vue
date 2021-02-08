@@ -3,20 +3,25 @@
 <html lang="de-CH">
 <head>
   <meta charset="UTF-8">
-  <title>{{ currentSite.name }}</title>
+  <title>{{ siteName }}</title>
 
   <meta name="author" content="Françoise Nussbaumer">
   <meta name="description" content="Françoise Nussbaumer ist eine schweizer Malerin. Sie malt Landschaften, Stillleben und ornamentale Sujets mit Ölfarben auf Leinwand.">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <link rel="shortcut icon" href="/assets/_pic/favicon.png" type="image/x-icon">
+
   <link rel="stylesheet" href="/assets/css/reset.css">
   <link rel="stylesheet" href="/assets/css/fonts.css">
   <link rel="stylesheet" href="/assets/css/style.css">
+
+  {{ craft.twigpack.includeCssModule("app.css", true) }}
+
 </head>
 
-<body>
+<body id="app">
   
   <nav id="navigation">
     {% include 'includes/nav' %}
@@ -28,6 +33,10 @@
 
   {% block content %}
   {% endblock %}
+
+  {{ craft.twigpack.includeSafariNomoduleFix() }}
+  {{ craft.twigpack.includeJsModule("app.js", true) }}
+  {{ craft.twigpack.includeJsModule("chunk-vendors.js", true) }}
 
 </body>
 </html>
