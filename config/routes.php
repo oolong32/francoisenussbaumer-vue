@@ -19,5 +19,6 @@
  */
 
 return [
-
+  'painting/<assetId:\d+>' => ['template' => 'bild'],
+  'category/<categoryId:\d+>' => ['template' => 'category'],
 ];
