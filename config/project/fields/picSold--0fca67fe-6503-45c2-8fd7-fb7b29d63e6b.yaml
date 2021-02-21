@@ -1,0 +1,13 @@
+contentColumnType: boolean
+fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62
+handle: picSold
+instructions: ''
+name: Verkauft
+searchable: false
+settings:
+  default: false
+  offLabel: null
+  onLabel: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

@@ -13,26 +13,34 @@
 
   <link rel="shortcut icon" href="/assets/_pic/favicon.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="/assets/css/reset.css">
-  <link rel="stylesheet" href="/assets/css/fonts.css">
-  <link rel="stylesheet" href="/assets/css/style.css">
-
   {{ craft.twigpack.includeCssModule("app.css", true) }}
 
 </head>
 
-<body id="app">
+<body>
   
-  <nav id="navigation">
-    {% include 'includes/nav' %}
-  </nav>
-  
-  <header>
-    <h1><a href="/">{{ currentSite.name }}</a></h1>
-  </header>
+  <div id="app">
+    <nav id="navigation">
+      {% include 'includes/nav' %}
+    </nav>
+    
+    <header>
+      <h1><a href="/">{{ currentSite.name }}</a></h1>
+    </header>
 
-  {% block content %}
-  {% endblock %}
+    {% block content %}
+    {% endblock %}
+
+    {% set contactdata = {} %}
+    {% set contactdata = contactdata|merge( {'instagramText': contact.instagramText, 'instagramLink': contact.instagramLink } ) %}
+    {% set contactdata = contactdata|merge( {'signupText': contact.newsletterSignupText, 'signupLink': contact.newsletterSignupLink } ) %}
+    {% set contactdata = contactdata|merge( {'email': contact.email, 'telefon': contact.telefon } ) %}
+    {% set contactdata = contactdata|merge( {'latitudeDegrees': contact.latitudeDegrees, 'latitudeMinutes': contact.latitudeMinutes, 'latitudeSeconds': contact.latitudeSeconds } ) %}
+    {% set contactdata = contactdata|merge( {'longitudeDegrees': contact.longitudeDegrees, 'longitudeMinutes': contact.longitudeMinutes, 'longitudeSeconds': contact.longitudeSeconds } ) %}
+
+    <footer-section :contact="{{ contactdata|json_encode }}"></footer-section>
+
+  </div>
 
   {{ craft.twigpack.includeSafariNomoduleFix() }}
   {{ craft.twigpack.includeJsModule("app.js", true) }}

@@ -24,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "modules\\": "modules/"
+      "modules\\francoisenussbaumermodule\\": "modules/francoisenussbaumermodule/src/"
     }
   },
   "config": {

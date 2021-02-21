@@ -44,9 +44,12 @@ footer .credits { font-size: 0.6875rem; }
 
 /* Layout {{{1 */
 
+div#app { display: contents; } // ignore this element
+
 header,
 nav,
-main { width: 100%; }
+main,
+footer { width: 100%; }
 
 header { margin: 2.25rem auto 2.5rem; }
 
@@ -172,6 +175,26 @@ nav, #filter {
 
 /* Text Styles }}}1*/
 
+/* Single Images {{{ */
+
+main#bild {
+  figure {
+    h2 {
+      text-align: left;
+      margin-bottom: 0;
+    }
+    figcaption {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: .25rem;
+      span { white-space: nowrap; }
+    }
+    img { width: 100%; }
+  }
+}
+
+/* End Single Images }}}*/
+
 /* Lists {{{1*/
 
 main ul { 
@@ -252,7 +275,9 @@ a.newsletter-signup:hover { transform: scale(1.1) rotate(-15deg); }
 
 /* Footer {{{1*/
 
-footer section { margin: 0 auto $section-margin; }
+footer section { 
+  margin: 0 auto $section-margin;
+}
 // könnte auch in Layout Fold
 
 footer #credits p { font-family: 'Input Sans Narrow', monospace; }
@@ -280,7 +305,7 @@ footer #credits p { font-family: 'Input Sans Narrow', monospace; }
   main { max-width: 40rem; }
   main #content,
   footer {
-    max-width: 32rem;
+    // max-width: 32rem; obsolete
     padding: 0;
   }
   main#bilder #bilder-raster {

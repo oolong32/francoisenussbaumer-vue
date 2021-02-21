@@ -2,19 +2,84 @@ fieldLayouts:
   1976b51c-d0b6-472d-80f6-df2fb629c4e1:
     tabs:
       -
-        fields:
-          80c4306a-f57c-495b-98c3-e2ab7127bd72:
-            required: true
-            sortOrder: 2
-          93d77b82-364b-4456-a180-807095386528:
-            required: true
-            sortOrder: 1
-          a7bf9193-2b3c-4e43-ae7e-c2164bacfb54:
-            required: true
-            sortOrder: 4
-          bd929699-0b35-4bf7-8150-baada3cc384e:
-            required: true
-            sortOrder: 3
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\AssetTitleField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3a40e17a-6e14-45fe-b747-206233064079
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0fca67fe-6503-45c2-8fd7-fb7b29d63e6b
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 93d77b82-364b-4456-a180-807095386528
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 80c4306a-f57c-495b-98c3-e2ab7127bd72
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: bd929699-0b35-4bf7-8150-baada3cc384e
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: a7bf9193-2b3c-4e43-ae7e-c2164bacfb54
+            instructions: null
+            label: null
+            required: '1'
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Inhalt
         sortOrder: 1
 handle: paintings
@@ -22,6 +87,8 @@ hasUrls: true
 name: 'Gemalte Bilder'
 settings:
   path: assets/paintings
-sortOrder: 1
+sortOrder: 0
+titleTranslationKeyFormat: null
+titleTranslationMethod: null
 type: craft\volumes\Local
 url: assets/paintings

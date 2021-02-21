@@ -18,8 +18,10 @@
  */
 
 return [
-    'modules' => [
-        'my-module' => \modules\Module::class,
+  'modules' => [
+    'francoisenussbaumer-module' => [
+      'class' => \modules\francoisenussbaumermodule\FrancoisenussbaumerModule::class,
     ],
-    //'bootstrap' => ['my-module'],
+  ],
+  'bootstrap' => ['francoisenussbaumer-module'],
 ];

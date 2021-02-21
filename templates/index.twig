@@ -1,49 +1,7 @@
 {% extends "_layout" %}
 
 {% block content %}
-  <main id="index">
-    <p v-if="auction_data && auction_data.status === 'Auktion beendet'">Auktion für dieses Bild beendet.</p>
-    <p v-else-if="auction_data">Momentaner Preis: CHF ${ auction_data.bids.length ? auction_data.article.base_price + 10 : auction_data.article.start_price }.—</p>
-    <p v-else>Daten werden aufbereitet …</p>
-    <div id="image-container">
-      <img
-        :src="auction_data ? auction_data.permalink : '{{ alias( '@assetBasePath' ) }}/_pic/test.svg'"
-        :alt="auction_data ? auction_data.article.title : 'Placeholder'"
-        >
-        <p v-if="auction_data && auction_data.article.active" id="auction-button" class="button">
-          <a href="https://auction.francoisenussbaumer.ch/">Bieten</a>
-        </p>
-    </div>
-    <p v-if="auction_data"><strong>${ auction_data.article.title }</strong><br>${ auction_data.article.description }.</p>
-  </main>
-
-  {% include 'includes/footer' %}
-
-  {% include 'includes/vue-loader' %}
-
-  <script>
-    const url = "https://auction.francoisenussbaumer.ch/json";
-
-    var app = new Vue({
-      el: '#index',
-      delimiters: ['${', '}'],
-
-      data: {
-        auction_data: null
-      },
-
-      created: function () {
-        this.getAuctionData(); 
-      },
-
-      methods: {
-        getAuctionData: async function() { 
-          let response = await fetch(url);
-          this.auction_data = await response.json();
-          console.log(this.auction_data);
-        }
-      }
-    });
-</script>
+  {% set testimageUrl = alias( '@assetBasePath' ) ~ "/_pic/test.svg" %} 
+  <main-teaser :testimageurl="{{ testimageUrl|json_encode }}"></main-teaser>
 
 {% endblock %}

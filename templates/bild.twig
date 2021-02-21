@@ -8,7 +8,13 @@
     {% set painting = craft.assets().volume('paintings').id(assetId).one() %}
     {% if painting|length %}
       <figure>
-        <figcaption>{{ painting.title }}, {{ painting.picTechnique }}, {{ painting.picWidth }} × {{ painting.picHeight }} cm</figcaption>
+        <h2>{{ painting.title }}</h2>
+        <figcaption>
+        {% if painting.picPrice %}
+          <span class="pic-price">Preis: {{ painting.picPrice ~ '.—' }}</span>
+        {% endif %}
+        <span class="pic-specs">{{ painting.picTechnique }}, {{ painting.picWidth }} × {{ painting.picHeight }} cm</span>
+        </figcaption>
 
         <img src="/{{ painting.getUrl() }}" alt="{{ painting.title }}"> 
       </figure>
@@ -47,7 +53,5 @@
     {% endif %}
 
   </main>
-
-  {% include 'includes/footer' %}
 
 {% endblock %}
