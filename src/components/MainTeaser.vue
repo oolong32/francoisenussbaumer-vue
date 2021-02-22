@@ -37,7 +37,7 @@ export default {
     getAuctionData: async function() { 
       let response = await fetch(this.url);
       this.auction_data = await response.json();
-      console.log(this.auction_data);
+      // console.log(this.auction_data);
     }
   },
   created() {
