@@ -5,37 +5,10 @@
 {% block content %}
   <main id="bild">
 
-    {% set painting = craft.assets().volume('paintings').id(assetId).one() %}
-    {% if painting|length %}
-      <figure>
-        <h2>{{ painting.title }}</h2>
-        <figcaption>
-        {% if painting.picPrice %}
-          <span class="pic-price">Preis: {{ painting.picPrice ~ '.—' }}</span>
-        {% endif %}
-        <span class="pic-specs">{{ painting.picTechnique }}, {{ painting.picWidth }} × {{ painting.picHeight }} cm</span>
-        </figcaption>
+    {% set painting = craft.francoisenussbaumerModule.painting(assetId) %}
+    {% if painting: %}
 
-        <img src="/{{ painting.getUrl() }}" alt="{{ painting.title }}"> 
-      </figure>
-      <!--
-      {# Anzeige d. Kategorie unnötig, oder? #}
-      {% if painting.picType.all()|length %}
-        {% if painting.picType.all()|length == 1 %}
-          {% set picType = painting.picType.one() %}
-          <p>{{ picType.title }}</p> {# ein Link wär schön, what? #}
-        {% else %}
-          {% set picTypes = painting.picType.all() %}
-          <ul>
-          {% for picType in picTypes %}
-            <li>{{ picType.title }}</li> {# ein Link wär schön, what? #}
-          {% endfor %}
-          </ul>
-        {% endif %}
-      {% else %}
-        <p>Keine Kategorie für dieses Bild gewählt</p> {# Wording! #}
-      {% endif %}
-      -->
+    <bild :painting="{{ painting|json_encode }}"></bild>
 
       <p>
 
