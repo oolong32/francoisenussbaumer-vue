@@ -17,7 +17,7 @@
 
       <section v-if="paintings" id="bilder-raster">
 
-        <div 
+        <figure 
           v-for="painting in paintings"
           :key="painting.id"
           v-show="allVisible || categoryVisible(painting.categories)"
@@ -27,7 +27,8 @@
           <a :href="`/painting/${ painting.id }/`">
             <img :src="`/${ painting.thumb }`" :alt="painting.title">
           </a>
-        </div>
+          <div v-if="painting.sold" class="sold"></div>
+        </figure>
 
       </section>
 
