@@ -6,7 +6,7 @@
   <main id="bild">
 
     {% set painting = craft.francoisenussbaumerModule.painting(assetId) %}
-    {% if painting: %}
+    {% if painting %}
 
     <bild :painting="{{ painting|json_encode }}"></bild>
 
