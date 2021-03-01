@@ -85,10 +85,34 @@ class FrancoisenussbaumerModuleVariable
         'id' => $painting->id,
         'thumb' => $painting->getUrl('thumb'),
         'url' => $painting->url,
+        'price' => $painting->picPrice,
+        'sold' => $painting->picSold,
         'focalPoint' => $painting->hasFocalPoint ? $painting->focalPoint : null
       ];
     });
     return array_values($enhancedPaintings);
   }
 
+  public function painting($assetId)
+  {
+    $myAssetQuery = Asset::find()->volume('paintings')->kind('image')->id($assetId);
+    $painting = $myAssetQuery->one();
+
+    if ($painting) {
+      return (object)[
+        'title' => $painting->title,
+        'technique' => $painting->picTechnique,
+        'width' => $painting->picWidth,
+        'height' => $painting->picHeight,
+        'id' => $painting->id,
+        'thumb' => $painting->getUrl('thumb'),
+        'url' => $painting->getUrl(),
+        'price' => $painting->picPrice,
+        'sold' => $painting->picSold,
+        'focalPoint' => $painting->hasFocalPoint ? $painting->focalPoint : null
+      ];
+    } else {
+      return null;
+    }
+  }
 }
