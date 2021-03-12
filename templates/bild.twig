@@ -10,6 +10,7 @@
 
     <bild :painting="{{ painting|json_encode }}"></bild>
 
+      {% if not painting.sold %}
       <p>
 
         {% set parameter = 'Ich interessiere mich für Bild Nr. '
@@ -20,6 +21,7 @@
 
         <a href="mailto:mail@francoisenussbaumer.ch?subject={{ painting.title|url_encode }}&body={{ parameter|url_encode }}">Ich interessiere mich für dieses Bild</a>
       </p>
+      {% endif %}
 
     {% else %}
       <p>Ein Bild mit dieser Id wurde nicht gefunden.</p>

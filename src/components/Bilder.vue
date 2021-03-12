@@ -27,7 +27,7 @@
           <a :href="`/painting/${ painting.id }/`">
             <img :src="`/${ painting.thumb }`" :alt="painting.title">
           </a>
-          <div v-if="painting.sold" class="sold"></div>
+          <caption v-if="painting.sold" class="sold"></caption>
         </figure>
 
       </section>
