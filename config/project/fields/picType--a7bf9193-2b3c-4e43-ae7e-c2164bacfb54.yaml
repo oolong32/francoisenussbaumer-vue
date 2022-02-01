@@ -1,17 +1,23 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62
+fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62 # Bild-Upload
 handle: picType
 instructions: 'Kategorie zum Filtern der Bilder.'
 name: Sujet-Typ
 searchable: true
 settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
   branchLimit: '3'
   limit: null
   localizeRelations: false
   selectionLabel: 'Typ wählen'
-  source: 'group:0e99b02b-0d7c-443f-8123-110f564f6943'
+  showSiteMenu: true
+  source: 'group:0e99b02b-0d7c-443f-8123-110f564f6943' # Sujets
   sources: '*'
   targetSiteId: null
+  validateRelatedElements: false
   viewMode: null
 translationKeyFormat: null
 translationMethod: site

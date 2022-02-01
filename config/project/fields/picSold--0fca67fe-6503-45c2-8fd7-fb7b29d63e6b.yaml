@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: boolean
-fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62
+fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62 # Bild-Upload
 handle: picSold
 instructions: ''
 name: Verkauft

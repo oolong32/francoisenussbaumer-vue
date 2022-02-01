@@ -1,24 +1,32 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: 54c01ac0-1683-46c4-b4f4-b5eb6c5a82d3
+fieldGroup: 54c01ac0-1683-46c4-b4f4-b5eb6c5a82d3 # Common
 handle: img
 instructions: ''
 name: Bild
 searchable: false
 settings:
+  allowSelfRelations: false
+  allowUploads: true
   allowedKinds:
     - image
-  defaultUploadLocationSource: 'volume:8f51ca4a-95b9-472a-9dcc-900adacab5e4'
+  defaultUploadLocationSource: 'volume:8f51ca4a-95b9-472a-9dcc-900adacab5e4' # Gemalte Bilder
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
+  previewMode: full
   restrictFiles: '1'
   selectionLabel: 'Bild auswählen'
-  singleUploadLocationSource: 'volume:5db9047c-c287-453a-be92-df2dcd5f8ebe'
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  singleUploadLocationSource: 'volume:5db9047c-c287-453a-be92-df2dcd5f8ebe' # Sonstige Uploads
   singleUploadLocationSubpath: ''
   source: null
   sources: '*'
   targetSiteId: null
-  useSingleFolder: '1'
+  useSingleFolder: true
+  validateRelatedElements: false
   viewMode: list
 translationKeyFormat: null
 translationMethod: site

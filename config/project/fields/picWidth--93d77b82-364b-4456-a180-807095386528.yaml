@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: integer(10)
-fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62
+fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62 # Bild-Upload
 handle: picWidth
 instructions: 'Breite des Bildes in cm.'
 name: Bildbreite
@@ -8,10 +9,12 @@ settings:
   decimals: 0
   defaultValue: null
   max: null
-  min: '1'
-  prefix: ''
+  min: 1
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
   size: null
-  suffix: ''
+  suffix: null
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Number

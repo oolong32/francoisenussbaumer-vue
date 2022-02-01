@@ -1,7 +1,38 @@
+fieldLayouts:
+  c815ef72-d779-46cb-af0e-319877ca9013:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Inhalt
+        sortOrder: 1
 handle: home
 hasTitleField: false
 name: Home
-section: f6225056-637f-4012-be73-84b958f8b27d
+section: f6225056-637f-4012-be73-84b958f8b27d # Home
 sortOrder: 1
 titleFormat: '{section.name|raw}'
-titleLabel: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: ''

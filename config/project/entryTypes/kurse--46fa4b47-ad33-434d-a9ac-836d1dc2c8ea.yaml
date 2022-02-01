@@ -4,34 +4,80 @@ fieldLayouts:
       -
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
             instructions: null
             label: Titel
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
             type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
           -
-            fieldUid: 8c90fd95-d9ea-4a28-be9f-7a217152aad0
+            fieldUid: 8c90fd95-d9ea-4a28-be9f-7a217152aad0 # Bild
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
-            fieldUid: d4fae239-b0b1-4fb1-9a96-4b32d27d0852
+            fieldUid: d4fae239-b0b1-4fb1-9a96-4b32d27d0852 # Kursdaten
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
-            fieldUid: c8285e7e-78e0-4530-adfd-07457969de90
+            fieldUid: c8285e7e-78e0-4530-adfd-07457969de90 # Kursbeschrieb
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
-            fieldUid: 971fbe47-344d-4853-8894-9db59b3a6e4f
+            fieldUid: 971fbe47-344d-4853-8894-9db59b3a6e4f # Anmelde-Link
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
-            fieldUid: 177ded6e-9724-4df1-812e-97a9704cbe5a
+            fieldUid: 177ded6e-9724-4df1-812e-97a9704cbe5a # Detaillierte Kursinformationen
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: Common
         sortOrder: 1
 handle: kurse
 hasTitleField: true
 name: Kurse
-section: 832a0bbc-60b4-4ff6-a32e-3108cefd2d9b
+section: 832a0bbc-60b4-4ff6-a32e-3108cefd2d9b # Workshops
 sortOrder: 1
-titleFormat: ''
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: ''

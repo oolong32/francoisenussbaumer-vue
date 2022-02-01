@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string(255)
-fieldGroup: 5d585f0d-ff1d-4d1b-af7b-b40a6580d5e2
+fieldGroup: 5d585f0d-ff1d-4d1b-af7b-b40a6580d5e2 # Kontakt
 handle: instagramLink
 instructions: ''
 name: 'Instagram Link'
@@ -7,6 +8,8 @@ searchable: false
 settings:
   maxLength: '255'
   placeholder: ''
+  types:
+    - url
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Url

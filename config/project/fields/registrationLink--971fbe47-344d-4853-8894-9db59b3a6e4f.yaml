@@ -1,5 +1,6 @@
+columnSuffix: null
 contentColumnType: string(255)
-fieldGroup: 54c01ac0-1683-46c4-b4f4-b5eb6c5a82d3
+fieldGroup: 54c01ac0-1683-46c4-b4f4-b5eb6c5a82d3 # Common
 handle: registrationLink
 instructions: 'Link zu Google Form.'
 name: Anmelde-Link
@@ -7,6 +8,8 @@ searchable: true
 settings:
   maxLength: '255'
   placeholder: ''
+  types:
+    - url
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\Url

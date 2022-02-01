@@ -1,8 +1,40 @@
+fieldLayouts:
+  bd54e1d4-5591-4084-932e-3eaeaa69ceb4:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\AssetTitleField
+            warning: null
+            width: 100
+        name: Inhalt
+        sortOrder: 1
 handle: assetsGeneral
 hasUrls: true
 name: 'Sonstige Uploads'
 settings:
   path: assets/general
 sortOrder: 2
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
 type: craft\volumes\Local
 url: assets/general

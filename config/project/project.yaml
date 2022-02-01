@@ -1,12 +1,63 @@
-dateModified: 1613936804
+dateModified: 1643722347
 email:
   fromEmail: josef.renner@gmail.com
   fromName: 'Francoise Nussbaumer'
   transportType: craft\mail\transportadapters\Sendmail
-graphql:
-  publicToken:
-    enabled: false
-    expiryDate: null
+meta:
+  __names__:
+    0e99b02b-0d7c-443f-8123-110f564f6943: Sujets # Sujets
+    0fca67fe-6503-45c2-8fd7-fb7b29d63e6b: Verkauft # Verkauft
+    1bb57016-86ba-45a2-b22f-4d5c08156cbd: Text # Text
+    3a40e17a-6e14-45fe-b747-206233064079: Preis # Preis
+    3c2d97ae-931c-407a-b4e8-efc1a4c4733b: 'Geografische Länge, Sekunden' # Geografische Länge, Sekunden
+    5d585f0d-ff1d-4d1b-af7b-b40a6580d5e2: Kontakt # Kontakt
+    5db9047c-c287-453a-be92-df2dcd5f8ebe: 'Sonstige Uploads' # Sonstige Uploads
+    5db78920-204b-4fa7-bbf5-453b6e735514: 'Geografische Länge, Minuten' # Geografische Länge, Minuten
+    6e0573c5-df31-4f11-9766-0a6ee1f5923b: 'Instagram Link' # Instagram Link
+    7a811d84-180f-4b1a-8325-5b2e6cde5c9f: Telefonnummer # Telefonnummer
+    8c90fd95-d9ea-4a28-be9f-7a217152aad0: Bild # Bild
+    8f51ca4a-95b9-472a-9dcc-900adacab5e4: 'Gemalte Bilder' # Gemalte Bilder
+    8fa75db6-de94-4226-9489-18443cc4388a: 'Geografische Breite, Minuten' # Geografische Breite, Minuten
+    20bc40e4-35bd-4f3e-9635-6dc168ff9d3b: Kontakt # Kontakt
+    33ba1e0e-27ed-4e87-98c4-2fe265b28a98: 'E-Mail Adresse' # E-Mail Adresse
+    46fa4b47-ad33-434d-a9ac-836d1dc2c8ea: Kurse # Kurse
+    54c01ac0-1683-46c4-b4f4-b5eb6c5a82d3: Common # Common
+    65c4d9a2-3073-47e6-bed3-b74dda23906e: 'Workshops Übersicht' # Workshops Übersicht
+    65c20188-b8f5-4251-91f2-74dfbc42177b: Legende # Legende
+    069b6311-6d17-4d3f-89dc-f4a6fe7a3f9f: Spezial # Spezial
+    80c4306a-f57c-495b-98c3-e2ab7127bd72: Bildhöhe # Bildhöhe
+    93d77b82-364b-4456-a180-807095386528: Bildbreite # Bildbreite
+    97e4b741-6654-4d45-86b1-c1c3f1384072: Bild # Bild
+    119a27f0-f448-411d-babe-090ead1b38c8: Home # Home
+    177ded6e-9724-4df1-812e-97a9704cbe5a: 'Detaillierte Kursinformationen' # Detaillierte Kursinformationen
+    832a0bbc-60b4-4ff6-a32e-3108cefd2d9b: Workshops # Workshops
+    971fbe47-344d-4853-8894-9db59b3a6e4f: Anmelde-Link # Anmelde-Link
+    01285a36-ebfb-4d29-8942-2387adddfed0: Bilder # Bilder
+    2131dc45-e00f-40e6-9bcd-917e2ef45619: 'Geografische Länge, Grad' # Geografische Länge, Grad
+    6361c7f6-ac27-4b56-9a1e-40672a9fa45b: 'Newsletter Signup Text' # Newsletter Signup Text
+    9238c89c-b1ce-4b99-ae2a-359e5535abf0: 'Françoise Nussbaumer' # Françoise Nussbaumer
+    711847bc-0aab-44d8-b116-fe07895e9a8d: 'Geografische Breite, Sekunden' # Geografische Breite, Sekunden
+    904286c4-33c7-4a06-82d9-0208cb4fc736: 'Bild & Text' # Bild & Text
+    38515775-9d7e-470f-9099-a077faa2d5a3: About # About
+    41926178-25cf-4a46-bb32-d2273b10d768: 'Bilder mit Beschriftung' # Bilder mit Beschriftung
+    57548489-3db0-49da-a89a-f22e09f1c3d4: 'Geografische Breite, Grad' # Geografische Breite, Grad
+    94547326-d8ab-40e4-b013-c4819826dcbb: About # About
+    a7bf9193-2b3c-4e43-ae7e-c2164bacfb54: Sujet-Typ # Sujet-Typ
+    a528c5db-ea97-43b7-8393-3e61528f1931: 'Public Schema' # Public Schema
+    b4597672-df7e-4d2d-bdff-b318c375df0d: 'Newsletter Signup Link' # Newsletter Signup Link
+    bc74d2b4-0015-4427-8613-02f8daf4378c: Spezial # Spezial
+    bd929699-0b35-4bf7-8150-baada3cc384e: Maltechnik # Maltechnik
+    bfa4e5a7-25c8-4dfd-bfab-364c1c454ad9: Spezial # Spezial
+    c7472aa4-499a-4433-b5d0-df11258a256b: 'Instagram Text' # Instagram Text
+    c8285e7e-78e0-4530-adfd-07457969de90: Kursbeschrieb # Kursbeschrieb
+    cc7eb8a1-18fb-4bd8-b42f-7297e6e6b99e: 'Workshops Übersicht' # Workshops Übersicht
+    cd7c023b-379e-4d84-bc18-6942552d3f62: Bild-Upload # Bild-Upload
+    d4fae239-b0b1-4fb1-9a96-4b32d27d0852: Kursdaten # Kursdaten
+    e6ce56ff-d56f-409b-a8a8-d695cc415018: Bilder # Bilder
+    e346a69f-7f10-4d18-b38b-937939028efb: 'Francoise Nussbaumer' # Francoise Nussbaumer
+    f79f9204-59d6-4a5b-8287-4c7ddd1dc8a5: Thumbnail # Thumbnail
+    f6225056-637f-4012-be73-84b958f8b27d: Home # Home
+    fa2aa7be-d862-4550-a1ac-237ef82056b1: Mittelgross # Mittelgross
 plugins:
   craftql:
     edition: standard
@@ -38,7 +89,7 @@ system:
   edition: solo
   live: true
   name: 'Françoise Nussbaumer'
-  schemaVersion: 3.6.1
+  schemaVersion: 3.7.8
   timeZone: Europe/Zurich
 users:
   allowPublicRegistration: false

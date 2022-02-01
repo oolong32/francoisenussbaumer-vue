@@ -1,16 +1,19 @@
+columnSuffix: null
 contentColumnType: text
-fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62
+fieldGroup: cd7c023b-379e-4d84-bc18-6942552d3f62 # Bild-Upload
 handle: picTechnique
 instructions: ''
 name: Maltechnik
 searchable: true
 settings:
-  charLimit: ''
+  byteLimit: null
+  charLimit: null
   code: ''
   columnType: text
   initialRows: '4'
   multiline: ''
   placeholder: 'Öl auf Leinwand'
+  uiMode: normal
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\PlainText

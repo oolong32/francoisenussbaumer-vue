@@ -1,14 +1,16 @@
+columnSuffix: null
 contentColumnType: string
-fieldGroup: bc74d2b4-0015-4427-8613-02f8daf4378c
+fieldGroup: bc74d2b4-0015-4427-8613-02f8daf4378c # Spezial
 handle: bildText
 instructions: ''
 name: 'Bilder mit Beschriftung'
 searchable: true
 settings:
   contentTable: '{{%matrixcontent_bildtext}}'
-  localizeBlocks: false
   maxBlocks: ''
   minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Matrix

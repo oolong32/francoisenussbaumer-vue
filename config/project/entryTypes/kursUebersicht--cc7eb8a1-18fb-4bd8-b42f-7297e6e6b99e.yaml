@@ -1,7 +1,38 @@
+fieldLayouts:
+  3f1ba558-ed5c-430f-a2ed-6689aeeb5373:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Inhalt
+        sortOrder: 1
 handle: kursUebersicht
 hasTitleField: false
 name: 'Workshops Übersicht'
-section: 65c4d9a2-3073-47e6-bed3-b74dda23906e
+section: 65c4d9a2-3073-47e6-bed3-b74dda23906e # Workshops Übersicht
 sortOrder: 1
 titleFormat: '{section.name|raw}'
-titleLabel: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: ''

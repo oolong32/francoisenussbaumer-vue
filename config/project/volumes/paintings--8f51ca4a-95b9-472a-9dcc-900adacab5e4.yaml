@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 3a40e17a-6e14-45fe-b747-206233064079
+            fieldUid: 3a40e17a-6e14-45fe-b747-206233064079 # Preis
             instructions: null
             label: null
             required: false
@@ -36,7 +36,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 0fca67fe-6503-45c2-8fd7-fb7b29d63e6b
+            fieldUid: 0fca67fe-6503-45c2-8fd7-fb7b29d63e6b # Verkauft
             instructions: null
             label: null
             required: false
@@ -45,7 +45,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 93d77b82-364b-4456-a180-807095386528
+            fieldUid: 93d77b82-364b-4456-a180-807095386528 # Bildbreite
             instructions: null
             label: null
             required: '1'
@@ -54,7 +54,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 80c4306a-f57c-495b-98c3-e2ab7127bd72
+            fieldUid: 80c4306a-f57c-495b-98c3-e2ab7127bd72 # Bildhöhe
             instructions: null
             label: null
             required: '1'
@@ -63,7 +63,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: bd929699-0b35-4bf7-8150-baada3cc384e
+            fieldUid: bd929699-0b35-4bf7-8150-baada3cc384e # Maltechnik
             instructions: null
             label: null
             required: '1'
@@ -72,7 +72,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: a7bf9193-2b3c-4e43-ae7e-c2164bacfb54
+            fieldUid: a7bf9193-2b3c-4e43-ae7e-c2164bacfb54 # Sujet-Typ
             instructions: null
             label: null
             required: '1'
@@ -89,6 +89,6 @@ settings:
   path: assets/paintings
 sortOrder: 0
 titleTranslationKeyFormat: null
-titleTranslationMethod: null
+titleTranslationMethod: site
 type: craft\volumes\Local
 url: assets/paintings

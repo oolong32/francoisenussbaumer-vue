@@ -4,22 +4,53 @@ fieldLayouts:
       -
         elements:
           -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
             instructions: null
             label: Titel
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
             type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
           -
-            fieldUid: 1bb57016-86ba-45a2-b22f-4d5c08156cbd
+            fieldUid: 1bb57016-86ba-45a2-b22f-4d5c08156cbd # Text
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
           -
-            fieldUid: 41926178-25cf-4a46-bb32-d2273b10d768
+            fieldUid: 41926178-25cf-4a46-bb32-d2273b10d768 # Bilder mit Beschriftung
+            instructions: null
+            label: null
             required: false
+            tip: null
             type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
         name: 'Tab 1'
         sortOrder: 1
 handle: special
 hasTitleField: true
 name: Spezial
-section: 069b6311-6d17-4d3f-89dc-f4a6fe7a3f9f
+section: 069b6311-6d17-4d3f-89dc-f4a6fe7a3f9f # Spezial
 sortOrder: 1
-titleFormat: ''
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: ''

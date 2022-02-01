@@ -1,8 +1,9 @@
 baseUrl: 'https://francoisenussbaumer.ch'
+enabled: true
 handle: default
 hasUrls: true
 language: de-CH
 name: 'Françoise Nussbaumer'
 primary: true
-siteGroup: e346a69f-7f10-4d18-b38b-937939028efb
+siteGroup: e346a69f-7f10-4d18-b38b-937939028efb # Francoise Nussbaumer
 sortOrder: 1

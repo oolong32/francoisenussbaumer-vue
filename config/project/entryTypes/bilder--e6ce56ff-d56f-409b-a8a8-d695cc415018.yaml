@@ -1,7 +1,38 @@
+fieldLayouts:
+  c957022d-f43c-4a9a-a11f-b40bb0a69a32:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Inhalt
+        sortOrder: 1
 handle: bilder
 hasTitleField: false
 name: Bilder
-section: 01285a36-ebfb-4d29-8942-2387adddfed0
+section: 01285a36-ebfb-4d29-8942-2387adddfed0 # Bilder
 sortOrder: 1
 titleFormat: '{section.name|raw}'
-titleLabel: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: ''
