@@ -241,7 +241,8 @@ main ul {
     background: hsl(10, 85%, 60%);
   }
   @media (max-width: 800px) {
-    left: 0.7rem;
+    left: 0.25rem;
+    top: 4.75rem; /* hier korrigieren */
     height: 5rem; width: 5rem;
     a { font-size: 0.75rem }
   }
