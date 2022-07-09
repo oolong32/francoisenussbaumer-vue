@@ -222,6 +222,38 @@ main ul {
 
 /* Buttons {{{1*/
 
+/* Start Ausstellungskatalog, Juli 22*/
+.exhibition-catalogue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  background: hsl(340, 80%, 70%);
+  transition: all 0.2s;
+  position: absolute;
+  top: 1.75rem;
+  align-self: flex-start;
+  transform: rotate(-12deg);
+  &:hover {
+    transform: scale(1.1) rotate(-14deg);
+    background: hsl(10, 85%, 60%);
+  }
+  @media (max-width: 800px) {
+    left: 0.7rem;
+    height: 5rem; width: 5rem;
+    a { font-size: 0.75rem }
+  }
+  a { 
+    color: black;
+    font-family: "Input Sans Narrow", monospace;
+    font-weight: 300;
+    transform: translateY(-0.2rem);
+  }
+}
+/* Ende Ausstellungskatalog, Juli 22*/
+
 #image-container {
   position: relative;
   padding:0;
