@@ -1,5 +1,11 @@
 # Francoise Nussbaumer
 
+`7.9.2022` Notes to myself:
+
+- Node Version `v17.8.0`
+- node-sass has been replaced with sass
+- craft needs upgrade urgently
+
 Built with [Craft-Vue](https://github.com/chasegiunta/craft-vue/).
 
 *Text übernommen von Stillhart-Projekt, stimmt nur teilweise.*
